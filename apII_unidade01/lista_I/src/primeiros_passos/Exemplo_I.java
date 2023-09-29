@@ -11,6 +11,6 @@ public class Exemplo_I {
 		int segundoValor = entrada.nextInt();
 		int resultado = primeiroValor + segundoValor;
 		System.out.print(resultado);
-		entrada.close();;
+		entrada.close();
 	}
 }
