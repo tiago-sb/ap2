@@ -6,7 +6,10 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		Scanner entradaDeDados = new Scanner(System.in);
-		
+		int numeroEscolhido = entradaDeDados.nextInt();
+		Fatorial fat = new Fatorial(); 
+		System.out.println(fat.fatorial(numeroEscolhido));
 		entradaDeDados.close();
 	}
 }
+// fatorial(numeroEscolhido)
