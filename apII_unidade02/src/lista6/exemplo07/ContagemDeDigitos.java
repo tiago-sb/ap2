@@ -1,4 +1,4 @@
-package lista6.exemploo07;
+package lista6.exemplo07;
 public class ContagemDeDigitos {
 	public int contarDigitos(int numeroEscolhido) {
 		if(numeroEscolhido <= 0) {
