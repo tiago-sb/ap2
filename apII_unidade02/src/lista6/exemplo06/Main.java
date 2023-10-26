@@ -10,6 +10,7 @@ public class Main {
 		
 		int[] vetorOrdenado = {10, 15, 20, 25, 26, 48, 69, 78, 79, 80, 86};	
 		
+		// passagem do vetor e da chave para efetuar a busca
 		if(buscaBinaria.buscaBinaria(vetorOrdenado, 101)) {
 			System.out.println("encontrado");
 		}
